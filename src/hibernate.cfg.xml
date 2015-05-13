@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.connection.password">LIducks02</property>
+        <property name="hibernate.connection.username">BERGERJ</property>
+        <property name="hibernate.default_schema">BERGERJ</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@cisc181.canrkwijj6g6.us-east-1.rds.amazonaws.com:1521:ORCL</property>
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+    </session-factory>
+</hibernate-configuration>
